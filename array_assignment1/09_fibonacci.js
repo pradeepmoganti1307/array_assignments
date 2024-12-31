@@ -37,10 +37,10 @@ function testFibonacci(numberOfTerms, expected) {
   const expectedSegment = "expected :";
   const resultSegment = "result :";
 
-  console.log(areEqual(result, expected) ? '✅' : '❌');
+  console.log(areEqual(result, expected) ? "✅" : "❌");
   console.log(inputSegment, numberOfTerms);
   console.log(expectedSegment, expected, resultSegment, result);
-  console.log('-----------------------------------------------');
+  console.log("-----------------------------------------------");
 }
 
 function testCases() {
